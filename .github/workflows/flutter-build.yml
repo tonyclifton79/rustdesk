@@ -72,8 +72,6 @@ env:
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   PUBLISH_UPDATE_METADATA: "${{ inputs.publish-update-metadata }}"
   SIGN_BASE_URL: "${{ secrets.SIGN_BASE_URL }}-2"
-  RENDEZVOUS_SERVER: "rustdesk.opsoftware.it:21116"
-  RS_PUB_KEY: "rvtnKiAJN73tOg6MGWsQQdvQg7xs9NW2Q01MxRyBY8o="
   
 jobs:
   validate-update-metadata-keys:
